@@ -4,9 +4,96 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2dcfacd22ca01f6df474512203d7e206",
-    "content-hash": "16c86ba61b5289e7bc03f8ae2b29fb7d",
+    "hash": "059bd3aadcac2905621b4e55c35041f9",
+    "content-hash": "d90a96436023a108ab1ae12e3a71b6f0",
     "packages": [
+        {
+            "name": "laravel-dev-common/union-config",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zhangkexiang/union-config.git",
+                "reference": "2f4578861a006589363cf792bbc64dd9319728f9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://packagist.phpcomposer.com/files/zhangkexiang/union-config/2f4578861a006589363cf792bbc64dd9319728f9.zip",
+                "reference": "2f4578861a006589363cf792bbc64dd9319728f9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "util",
+            "autoload": {
+                "classmap": [],
+                "files": [
+                    "src/union-functions.php"
+                ],
+                "psr-4": []
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "coding",
+                    "email": "zhangkexiang@qingdao1024.com"
+                }
+            ],
+            "description": "Laravel dev config util",
+            "homepage": "https://github.com/zhangkexiang/union-config",
+            "keywords": [
+                "config",
+                "util"
+            ],
+            "time": "2016-12-27 09:28:19"
+        },
+        {
+            "name": "laravel-dev-common/union-middleware",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zhangkexiang/union-middleware.git",
+                "reference": "970b60e078ade8ea6fae4bc9d7f71560dd78fbd7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://packagist.phpcomposer.com/files/zhangkexiang/union-middleware/970b60e078ade8ea6fae4bc9d7f71560dd78fbd7.zip",
+                "reference": "970b60e078ade8ea6fae4bc9d7f71560dd78fbd7",
+                "shasum": ""
+            },
+            "require": {
+                "laravel-dev-common/union-config": "*",
+                "php": ">=5.5.9"
+            },
+            "type": "util",
+            "autoload": {
+                "classmap": [],
+                "files": [],
+                "psr-4": {
+                    "Union\\Mid\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "coding",
+                    "email": "zhangkexiang@qingdao1024.com"
+                }
+            ],
+            "description": "Laravel dev middleware util",
+            "homepage": "https://github.com/zhangkexiang/union-middleware",
+            "keywords": [
+                "middleware",
+                "util"
+            ],
+            "time": "2016-12-27 09:54:56"
+        },
         {
             "name": "predis/predis",
             "version": "v1.1.1",

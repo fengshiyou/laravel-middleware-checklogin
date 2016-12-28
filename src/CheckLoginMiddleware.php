@@ -1,9 +1,9 @@
 <?php
 namespace Union\MidCheckLogin;
-
 use Predis;
+use Union\Mid\BaseMiddleware;
 
-class CheckLogin
+class CheckLoginMiddleware extends BaseMiddleware
 {
     public static function test()
     {
