@@ -1,5 +1,5 @@
 {
-    "name": "laravel/middleware-checklogin",
+    "name": "fsy-laravel/middleware-checklogin",
     "description": "Laravel dev log util",
     "type":"util",
     "keywords": ["middleware", "checklogin"],
