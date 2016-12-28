@@ -1,0 +1,40 @@
+{
+    "name": "laravel/middleware-checklogin",
+    "description": "Laravel dev log util",
+    "type":"util",
+    "keywords": ["middleware", "checklogin"],
+    "license": "MIT",
+    "homepage": "https://github.com/fengshiyou/laravel-middleware-checklogin",
+    "authors": [
+        {
+            "name": "fsy",
+            "email": "501453944@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "predis/predis": "1.1.1"
+    },
+    "replace": {
+    },
+    "autoload": {
+        "classmap": [
+        ],
+        "files": [
+        ],
+        "psr-4": {
+            "laravel\\MidCheckLogin\\": "src/"
+        }
+    },
+    "suggest": {
+    },
+    "minimum-stability": "dev",
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+
+}
+
