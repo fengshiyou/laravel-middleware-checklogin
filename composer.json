@@ -1,6 +1,6 @@
 {
     "name": "fsy-laravel/middleware-checklogin",
-    "description": "Laravel dev log util",
+    "description": "Laravel dev mid_checklogin util",
     "type":"util",
     "keywords": ["middleware", "checklogin"],
     "license": "MIT",
@@ -14,6 +14,7 @@
     "require": {
         "php": ">=5.5.9",
         "laravel-dev-common/union-middleware":"*",
+        "laravel-dev-common/union-config":"*",
         "predis/predis": "1.1.1"
     },
     "replace": {
@@ -36,6 +37,4 @@
             "url": "https://packagist.phpcomposer.com"
         }
     }
-
 }
-

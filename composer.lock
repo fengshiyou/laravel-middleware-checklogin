@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "059bd3aadcac2905621b4e55c35041f9",
-    "content-hash": "d90a96436023a108ab1ae12e3a71b6f0",
+    "hash": "a737ff5e3417be05fc594cfb583cfb5e",
+    "content-hash": "5ccfc8bf96cf5aaa28d97ffd16e1cc22",
     "packages": [
         {
             "name": "laravel-dev-common/union-config",
