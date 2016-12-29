@@ -21,8 +21,9 @@ return [
     'mid'=>[
         'checkLogin'=>[
             'redis'=>'default',//redis库，./app/config/database中redis配置中取值
-            'user_name'=>'uid',//用户登陆名
-            'user_token'=>'token',//用户登陆token
+            'token_prefix'=>'tk',//redis中用于token的前缀
+            'name_param'=>'uid',//用户登陆名
+            'token_param'=>'token',//用户登陆token
         ]
     ]
 ];
